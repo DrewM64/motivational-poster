@@ -1,0 +1,32 @@
+* {
+  background-color: black;
+}
+
+main {
+  width: 50vw;
+  margin: 50px auto;
+}
+
+.image-frame {
+  padding: 5px 7px;
+  border: solid 2px white;
+}
+
+img {
+  border: 5px solid white;
+  /* the width uses a calc() function to take into account the extra pixels given by the left and right borders  */
+  width: calc(100% - 10px);
+}
+
+h1,
+p {
+  color: white;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-family: "Libre Baskerville", serif;
+  font-size: 3em;
+}
